@@ -31,12 +31,17 @@ End stage after the tutorial
 - **第0章**: 初始化本指南的代码
 - **第1章**: Vulkan 初始化和渲染循环设置。(绘制闪烁清晰的颜色)
 - **第2章**: Vulkan 计算着色器和绘制 (使用一个计算着色器去绘制)
+- **第3章**: Vulkan 网格绘制 (使用图形管道绘制网格)
+- **第4章**: 纹理和更好的描述符管理
+- **第5章**: 完整的 GLTF 场景加载和高性能渲染
 
-Some extra sections of the guide contain more information that is not part of the main tutorial. Some of them are meant for the Legacy version of vkguide, and will be outdated if you are going with the current version. Outdated articles are flagged at the top. 
+指南中包含除主要章节之外的其他部分, 有一些是 vkguide 的旧版本, 过时的文章将会在顶部标注。
 
 - **GPU Driven Rendering**: Using compute shaders to handle rendering for maximum scalability and hundreds of thousands of meshes
 - **Extra chapter**: Extra articles for various improvements to the engine shown in the tutorial.
 
+- **GPU 驱动渲染**: 使用计算着色器来处理渲染, 以实现最大可扩展性和数十万个网格。
+- **其他章节**: 额外的章节展示了教程中的引擎的各种改进。
 
-Next: [Introduction to vulkan]({{ site.baseurl }}{% link docs/introduction/vulkan_overview.md %})
+Next: [介绍 vulkan]({{ site.baseurl }}{% link docs/introduction/vulkan_overview.md %})
 {% include comments.html term="Index Comments" %}
